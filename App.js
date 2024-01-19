@@ -22,8 +22,7 @@ export default function App() {
         "https://httpbin.org/post",
         result.assets[0].uri,
         {
-          fieldName: "file",
-          mimeType: "image/jpeg",
+          httpMethod: "PUT",
         }
       );
     } catch (error) {
